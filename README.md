@@ -6,15 +6,18 @@ O Sistema de Ouvidoria é um projeto desenvolvido como parte do primeiro projeto
 
 ## Funcionalidades
 
-- **Listagem de manifestações**: Exibe todas as manifestações registradas.
-- **Criar uma nova manifestação**: Permite que o usuário crie uma nova manifestação.
-- **Exibir quantidade de manifestações**: Mostra o total de manifestações cadastradas no sistema.
-- **Pesquisar uma manifestação por código**: Permite a busca de uma manifestação específica pelo seu código.
-- **Excluir uma manifestação pelo código**: Remove uma manifestação do sistema utilizando seu código.
+- **Listagem de manifestações**: Visualize todas as manifestações registradas no sistema.
+- **Listagem por tipo de manifestação**: Filtre as manifestações por categorias como reclamações, elogios, sugestões e informações.
+- **Criar uma nova manifestação**: Registre novas manifestações diretamente no sistema.
+- **Exibir quantidade de manifestações**: Consulte a quantidade total de manifestações cadastradas.
+- **Pesquisar manifestação por código**: Localize manifestações específicas utilizando o código único.
+- **Excluir manifestação por código**: Remova manifestações indesejadas ou resolvidas.
 
 ## Tecnologias Utilizadas
 
-- Python: Linguagem de programação utilizada para o desenvolvimento do sistema.
+- **Python**: Linguagem de programação principal.
+- **Banco de Dados MySQL**: Para armazenamento persistente das manifestações.
+- **Biblioteca `operacoesbd`**: Gerencia operações de banco de dados, como consultas, inserções, e exclusões.
 
 ## Como Usar
 
@@ -25,7 +28,3 @@ O Sistema de Ouvidoria é um projeto desenvolvido como parte do primeiro projeto
 ## Contribuição
 
 Contribuições são bem-vindas! Se você tiver sugestões para melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-## Agradecimentos
-
-Agradeço a todos os colegas e professores que contribuíram para o desenvolvimento deste projeto.
