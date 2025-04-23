@@ -2,7 +2,7 @@ from operacoesbd import *
 
 endSGBD = 'localhost'
 usuarioSGBD = 'root'
-senhaSGBD = '12345'
+senhaSGBD = 'suasenha'
 schemaSGBD = 'ouvidoria_xyz'
 
 conexao = criarConexao(endSGBD, usuarioSGBD, senhaSGBD, schemaSGBD)
